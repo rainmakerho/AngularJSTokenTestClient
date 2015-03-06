@@ -1,0 +1,12 @@
+d:\TokenTest\TokenClientTest\bin\TokenClientTest.dll.config
+d:\TokenTest\TokenClientTest\bin\TokenClientTest.dll
+d:\TokenTest\TokenClientTest\bin\TokenClientTest.pdb
+d:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.csprojResolveAssemblyReference.cache
+d:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.dll
+d:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.pdb
+F:\TokenTest\TokenClientTest\bin\TokenClientTest.dll.config
+F:\TokenTest\TokenClientTest\bin\TokenClientTest.dll
+F:\TokenTest\TokenClientTest\bin\TokenClientTest.pdb
+F:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.csprojResolveAssemblyReference.cache
+F:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.dll
+F:\TokenTest\TokenClientTest\obj\Debug\TokenClientTest.pdb

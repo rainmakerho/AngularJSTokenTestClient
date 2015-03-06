@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenTest", "TokenTest\TokenTest.csproj", "{ABCF8525-BF1B-42C4-AFF2-96319C42CB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenClientTest", "TokenClientTest\TokenClientTest.csproj", "{F20A2BB2-B3F2-41E7-8FB3-653D7AB550BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABCF8525-BF1B-42C4-AFF2-96319C42CB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCF8525-BF1B-42C4-AFF2-96319C42CB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCF8525-BF1B-42C4-AFF2-96319C42CB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCF8525-BF1B-42C4-AFF2-96319C42CB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20A2BB2-B3F2-41E7-8FB3-653D7AB550BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20A2BB2-B3F2-41E7-8FB3-653D7AB550BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20A2BB2-B3F2-41E7-8FB3-653D7AB550BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20A2BB2-B3F2-41E7-8FB3-653D7AB550BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<div class="row">
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-8">
+        <h2>首頁功能區</h2>
+        <form name="searchForm" ng-submit="getValue()">
+            <input type="number" class="form-control" placeholder="id" data-ng-model="id" required autofocus>
+            <button class="btn btn-md btn-info btn-block" type="submit">取Value</button>
+        </form>
+        <div data-ng-hide="message == ''" class="alert alert-danger">
+            {{message}}
+        </div>
+    </div>
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿<html>
+<head>
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <title>Token Testing</title>
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/site.css" rel="stylesheet" />
+    <link href="content/css/loading-bar.css" rel="stylesheet" />
+    <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body ng-app="app">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div data-ng-controller="indexController" class="col-md-8" data-ng-show="authentication.isAuth">
+                Hi, {{authentication.userName}}
+                <a data-ng-show="authentication.isAuth" href="" data-ng-click="logOut()">Logout</a></li>
+            </div>
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+        </div>
+
+        <div class="row">
+            <div ng-view="">
+            </div>
+        </div>
+    </div>
+
+    <!-- 3rd party libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+    <script src="scripts/angular-local-storage.min.js"></script>
+    <script src="scripts/loading-bar.min.js"></script>
+    <!-- Load app main script -->
+    <script src="app/app.js?v=1"></script>
+
+    <!-- Load services -->
+    <script src="app/services/authService.js?v=1"></script>
+    <script src="app/services/authInterceptorService.js?v=1"></script>
+    <script src="app/services/valuesService.js?v=1"></script>
+
+    <!-- Load controllers -->
+    <script src="app/controllers/indexController.js?v=1"></script>
+    <script src="app/controllers/homeController.js?v=1"></script>
+    <script src="app/controllers/loginController.js?v=1"></script>
+</body>
+</html>
